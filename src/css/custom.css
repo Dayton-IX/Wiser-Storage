@@ -27,16 +27,19 @@ h1, h2, h3, h4, h5, h6, p, a {
 /* MAIN BODY */
 
 #main-body {
-    height: 400px;
+    height: 500px;
 }
 
 #title-card {
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    width: 60%;
     padding: 30px;
     background-color: rgba(191, 201, 202, 0.726);  
     backdrop-filter: blur(20px);
     text-align: center;
     border-radius: 20px;
+    /* top: 50%; */
+    transform: translateY(50%);
 }
 
 #title-header {
@@ -64,6 +67,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 #contact {
     background-color: #85929E;
+    opacity: 90%;
 }
 
 #contact-body {
