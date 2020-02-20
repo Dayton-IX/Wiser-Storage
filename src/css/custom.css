@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 #navbar-top {
     background-color: #5D6D7E;
+    box-shadow: 0px 3px 5px rgba(56, 56, 56, 0.288);
 }
 
 #navbar-main a {
@@ -31,15 +32,15 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 #title-card {
-    /* margin-top: 200px; */
+    color: white;
     width: 60%;
     padding: 30px;
-    background-color: rgba(191, 201, 202, 0.726);  
-    backdrop-filter: blur(20px);
+    background-color: #E67E22;
     text-align: center;
-    border-radius: 20px;
+    box-shadow: -3px 3px 5px rgba(56, 56, 56, 0.288);
+    /* background-color: rgba(191, 201, 202, 0.726);   */
     /* top: 50%; */
-    transform: translateY(50%);
+    /* transform: translateY(50%); */
 }
 
 #title-header {
