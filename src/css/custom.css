@@ -111,6 +111,7 @@ input[type=text], input[type=email], input[type=submit], textarea {
     border-radius: 4px;
     box-sizing: border-box;
     opacity: 1;
+    border-radius: 0 !important;
 }
 
 input[type=submit]{
