@@ -153,5 +153,12 @@ input[type=submit]:hover {
 @media (max-width: 900px) {
     #title-card {
         width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    input[type=text], input[type=email] {
+        width: 80% !important;
     }
 }
