@@ -10,7 +10,7 @@ var transporter = nodemailer.createTransport({
 
 sendEmail = () => {
     var mailOptions = {
-      from: `${document.querySelector('#contact-email').value}@gmail.com`,
+      from: `${document.querySelector('#contact-email').value}`,
       to: 'daytonmaximus@gmail.com',
       subject: `Sent by ${document.querySelector('#contact-name').value} From wiserstorage.com!`,
       text: `${document.querySelector('#contact-message').value}`
