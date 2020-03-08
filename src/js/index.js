@@ -3,15 +3,15 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'daytonmaximus@gmail.com',
-    pass: ''
+    user: '',
+    pass: '',
   }
 });
 
 sendEmail = () => {
     var mailOptions = {
       from: `${document.querySelector('#contact-email').value}`,
-      to: 'daytonmaximus@gmail.com',
+      to: '',
       subject: `Sent by ${document.querySelector('#contact-name').value} From wiserstorage.com!`,
       text: `${document.querySelector('#contact-message').value}`
     };
