@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Dayton-IX/Wiser-Storage#readme",
   "dependencies": {
-    "nodemailer": "^6.4.4"
+    "cors": "^2.8.5",
+    "nodemailer": "^6.4.6"
   }
 }

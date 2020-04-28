@@ -2,3 +2,5 @@ node_modules/
 src/js/index.js
 
 functions/
+
+src/secret/
